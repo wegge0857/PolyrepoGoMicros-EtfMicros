@@ -36,6 +36,17 @@ func (s *EtfService) GetEtf(ctx context.Context, req *etfV1.GetEtfRequest) (*etf
 		TenYCagr: u.TenYCagr,
 	}, nil
 }
+
+func (s *EtfService) UpdateStar(ctx context.Context, req *etfV1.UpdateStarRequest) (*etfV1.UpdateStarReply, error) {
+	num, err := s.uc.UpdateStar(ctx, req.Id, req.Kind)
+	if err != nil {
+		return nil, err
+	}
+	return &etfV1.UpdateStarReply{
+		CurrentStar: num,
+	}, nil
+}
+
 func (s *EtfService) CreateEtf(ctx context.Context, req *etfV1.CreateEtfRequest) (*etfV1.CreateEtfReply, error) {
 	return &etfV1.CreateEtfReply{}, nil
 }
