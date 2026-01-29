@@ -33,7 +33,8 @@ func wireApp(confServer *conf.Server, confData *conf.Data, logger log.Logger) (*
 	etfService := service.NewEtfService(etfUseCase)
 	grpcServer := server.NewGRPCServer(confServer, etfService, logger)
 	httpServer := server.NewHTTPServer(confServer, etfService, logger)
-	app := newApp(logger, grpcServer, httpServer)
+	registrar := server.NewRegistrar()
+	app := newApp(logger, grpcServer, httpServer, registrar)
 	return app, func() {
 		cleanup()
 	}, nil

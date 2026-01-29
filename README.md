@@ -17,3 +17,6 @@ go get github.com/dtm-labs/client
 ### 在对应的微服务data层
 ### import "github.com/dtm-labs/client/dtmcli"
 ### dtmcli.SetBarrierTableName("barrier")
+
+### 运行
+go run .\cmd\etfMicros\ -conf .\configs\
