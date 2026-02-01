@@ -8,7 +8,7 @@ require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/google/wire v0.6.0
 	github.com/hashicorp/consul/api v1.33.2
-	github.com/wegge0857/PolyrepoGoMicros-ApiLink v0.0.0-20260119172835-21dbbbe47d80
+	github.com/wegge0857/PolyrepoGoMicros-ApiLink v0.0.1
 	go.uber.org/automaxprocs v1.5.1
 	google.golang.org/protobuf v1.34.1
 	gorm.io/driver/mysql v1.6.0
@@ -65,7 +65,7 @@ require (
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-playground/form/v4 v4.2.1 // indirect
-	github.com/google/uuid v1.6.0 // indirect
+	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.1 // indirect
 	go.opentelemetry.io/otel v1.24.0 // indirect
 	go.opentelemetry.io/otel/metric v1.24.0 // indirect

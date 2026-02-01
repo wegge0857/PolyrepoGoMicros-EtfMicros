@@ -317,8 +317,8 @@ github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXl
 github.com/tidwall/pretty v1.0.0 h1:HsD+QiTn7sK6flMKIvNmpqz1qrpP3Ps6jOKIKMooyg4=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926/go.mod h1:9ESjWnEqriFuLhtthL60Sar/7RFoluCcXsuvEwTV5KM=
-github.com/wegge0857/PolyrepoGoMicros-ApiLink v0.0.0-20260119172835-21dbbbe47d80 h1:drR9+/p5i0lCSZEOhxGvBvLVt9GyldFDxvrgIyMPj7k=
-github.com/wegge0857/PolyrepoGoMicros-ApiLink v0.0.0-20260119172835-21dbbbe47d80/go.mod h1:N7ozDYNvY6DBmo8NEvmd5Wc9jwzITaSh0K7M4CRW9VA=
+github.com/wegge0857/PolyrepoGoMicros-ApiLink v0.0.1 h1:TbjXUla+2F7WR81o0tlmS6rCXGv5EjudAf/VztlOGao=
+github.com/wegge0857/PolyrepoGoMicros-ApiLink v0.0.1/go.mod h1:N7ozDYNvY6DBmo8NEvmd5Wc9jwzITaSh0K7M4CRW9VA=
 github.com/xdg-go/pbkdf2 v1.0.0 h1:Su7DPu48wXMwC3bs7MCNG+z4FhcyEuz5dlvchbq0B0c=
 github.com/xdg-go/pbkdf2 v1.0.0/go.mod h1:jrpuAogTd400dnrH08LKmI/xc1MbPOebTwRqcT5RDeI=
 github.com/xdg-go/scram v1.0.2 h1:akYIkZ28e6A96dkWNJQu3nmCzH3YfwMPQExUYDaRv7w=
